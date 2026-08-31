@@ -19,7 +19,7 @@ export const projects: Project[] = [
     category: "Shopify · Sweden",
     description:
       "Built and launched a Shopify website from scratch, working directly with the client to understand requirements, implement custom solutions, and ensure the project was delivered on time and to specification.",
-    tags: ["Shopify", "Liquid", "Theme Customization", "App Integrations"],
+    tags: ["Shopify", "Liquid", "Theme Customization", "App Integrations", "Client Collaboration", "SEO", "Mobile Optimization", "Payment Gateways"],
     url: "https://rhagsstudios.com/",
     image: "/projects/rhagsstudio.png",
     preview: "shopify",
@@ -31,7 +31,7 @@ export const projects: Project[] = [
     category: "Shopify · Australia",
     description:
       "Worked directly with the client to understand requirements, implement custom solutions, and ensure the project was delivered on time and to specification.",
-    tags: ["Shopify", "Liquid", "Theme Customization", "App Integrations"],
+    tags: ["Shopify", "Liquid", "Theme Customization", "API Integrations", "Email Marketing", "SEO"],
     url: "https://kitchenlibrary.au/",
     image: "/projects/kl.png",
     preview: "shopify",
@@ -43,7 +43,7 @@ export const projects: Project[] = [
     category: "Shopify · US",
     description:  
       "Collaborated directly with the client to gather requirements and deliver on time. Customized the Shopify theme with Liquid, HTML, CSS, and JavaScript, integrated apps and payment gateways, and applied SEO and mobile optimization — improving organic traffic and conversion rates across the full development cycle.",
-    tags: ["Shopify", "Liquid", "JavaScript", "SEO", "App Integration"],
+    tags: ["Shopify", "Liquid", "HTML", "CSS", "JavaScript", "SEO", "App Integrations"],
     url: "https://stickaroundprint.com/",
     image: "/projects/stickaroundprint.png",
     preview: "shopify",
@@ -55,7 +55,7 @@ export const projects: Project[] = [
     category: "Shopify · Australia",
     description:
       "Worked directly with the client to understand requirements, implement custom solutions, and ensure the project was delivered on time and to specification.",
-    tags: ["Shopify", "Liquid", "Theme Customization", "App Integrations"],
+    tags: ["Shopify", "Liquid", "Theme Customization", "HTML", "CSS"],
     url: "https://beon.com.au/",
     image: "/projects/beonau.png",
     preview: "shopify",
@@ -66,8 +66,8 @@ export const projects: Project[] = [
     title: "Plumbersstock",
     category: "Web Development · US",
     description:
-      "Worked directly with the client to understand requirements, implement custom solutions, and ensure the project was delivered on time and to specification.",
-    tags: ["Shopify", "Liquid", "Theme Customization", "App Integrations"],
+      "Helped build and maintain the website for Plumbersstock, a plumbing supply company.",
+    tags: ["React", "Next.js", "HTML", "CSS", "JavaScript", "SEO"],
     url: "https://www.plumbersstock.com/",
     image: "/projects/ps.png",
     preview: "ecommerce",
