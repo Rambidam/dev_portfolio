@@ -10,11 +10,34 @@ export const personalInfo = {
   location: "Philippines",
 };
 
-export const aboutText = [
-  "Experienced developer and web specialist with over five years of combined experience in e-commerce, web development, and Shopify store customization.",
-  "Proficient in theme customization, app integration, SEO, and conversion rate optimization (CRO), with a strong focus on building high-performing online stores.",
-  "Skilled in both frontend and backend technologies, including Liquid, React, JavaScript, PHP, and REST APIs.",
+export const aboutText =
+  "I'm a Shopify & web developer who builds high-performing online stores and web applications. With 5+ years in e-commerce, I specialize in theme customization, app integration, SEO, and conversion optimization — turning business goals into fast, scalable digital products using React, Liquid, JavaScript, PHP Laravel, and REST APIs.";
+
+export const workProcess = [
+  {
+    step: "01",
+    title: "Understand the goal",
+    description:
+      "I start by learning your business, audience, and success metrics so every decision supports real outcomes.",
+  },
+  {
+    step: "02",
+    title: "Design & build",
+    description:
+      "From Shopify themes to full-stack apps, I craft responsive, conversion-focused experiences with clean, maintainable code.",
+  },
+  {
+    step: "03",
+    title: "Launch & optimize",
+    description:
+      "I ship, measure performance, and iterate — improving SEO, Core Web Vitals, and conversion rates post-launch.",
+  },
 ];
+
+export const aboutSkills = {
+  label: "E-COMMERCE & WEB",
+  skills: "Shopify, React, Liquid, Laravel, JavaScript, Tailwind",
+};
 
 export const skillCategories = [
   {
@@ -120,21 +143,12 @@ export const education = [
       "Gained hands-on experience in MySQL database management.",
     ],
   },
-  {
-    degree: "Bachelor of Science in Mechanical Engineering (Undergraduate)",
-    school: "Technological University of the Philippines – Visayas",
-    period: "Jun 2014 – Aug 2017",
-    details: [
-      "Enhanced problem-solving and analytical thinking skills.",
-      "Gained experience in C++ and CAD for simulations and design.",
-      "Collaborated on projects within set deadlines across diverse teams.",
-    ],
-  },
 ];
 
 export const navLinks = [
   { label: "About", href: "#about" },
   { label: "Skills", href: "#skills" },
+  { label: "Projects", href: "#projects" },
   { label: "Experience", href: "#experience" },
   { label: "Education", href: "#education" },
   { label: "Contact", href: "#contact" },
