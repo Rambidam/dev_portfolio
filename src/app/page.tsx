@@ -7,10 +7,12 @@ import Experience from "@/components/Experience";
 import Education from "@/components/Education";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import MagicDust from "@/components/MagicDust";
 
 export default function Home() {
   return (
     <>
+      <MagicDust />
       <Header />
       <main>
         <Hero />
