@@ -182,7 +182,7 @@ export default function FeaturedProjects() {
             </span>
           </h2>
           <p className="mx-auto max-w-xl text-sm leading-relaxed text-slate-400 sm:text-base">
-            A selection of websites I&apos;ve built and maintained. Hover over each card to view the full project details.
+            A selection of websites I&apos;ve built and maintained. Hover over or tap each card to view the full project details.
           </p>
         </motion.div>
 

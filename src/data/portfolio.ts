@@ -103,6 +103,7 @@ export const experiences = [
       "Applied CRO techniques — UX improvements, product page enhancements, and checkout optimization to increase AOV.",
       "Conducted funnel analysis using heatmaps, session recordings, and analytics to drive data-driven improvements.",
       "Managed the full e-commerce lifecycle from discovery through deployment and post-launch optimization.",
+      "Automated workflows using AI and built-in Shopify features to streamline operations and improve efficiency.",
     ],
   },
   {
