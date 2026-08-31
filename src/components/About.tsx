@@ -7,7 +7,7 @@ import { aboutText, aboutSkills, workProcess } from "@/data/portfolio";
 export default function About() {
   return (
     <section id="about" className="relative overflow-hidden bg-black px-6 py-28">
-      <div className="pointer-events-none absolute left-0 top-1/4 h-80 w-80 -translate-x-1/3 rounded-full bg-sky-500/15 blur-[100px]" />
+      <div className="pointer-events-none absolute left-0 top-1/4 h-80 w-80 -translate-x-1/3 rounded-full bg-emerald-500/15 blur-[100px]" />
 
       <div className="relative mx-auto max-w-6xl">
         <div className="grid items-center gap-12 lg:grid-cols-[2fr_3fr] lg:gap-16">
@@ -20,7 +20,7 @@ export default function About() {
             className="relative mx-auto w-full max-w-sm lg:mx-0 lg:max-w-none"
           >
             <div className="relative aspect-[3/4] w-full">
-              <div className="absolute -inset-3 rounded-3xl bg-sky-400/20 blur-2xl" />
+              <div className="absolute -inset-3 rounded-3xl bg-emerald-400/20 blur-2xl" />
               <div className="relative h-full overflow-hidden rounded-2xl border-[5px] border-white bg-white shadow-[0_0_40px_rgba(255,255,255,0.15)]">
                 <Image
                   src="/profile.png"
@@ -45,8 +45,8 @@ export default function About() {
             {/* Status badge */}
             <div className="mb-8 inline-flex w-fit items-center gap-2.5 rounded-full border border-white/10 bg-white/5 px-4 py-2">
               <span className="relative flex h-2 w-2">
-                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-sky-400 opacity-75" />
-                <span className="relative inline-flex h-2 w-2 rounded-full bg-sky-400" />
+                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75" />
+                <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-400" />
               </span>
               <span className="text-[11px] font-medium uppercase tracking-widest text-slate-400">
                 Open to freelance & full-time
@@ -60,8 +60,8 @@ export default function About() {
 
             {/* Headline */}
             <h2 className="mb-6 text-3xl font-bold leading-tight tracking-tight text-white sm:text-4xl lg:text-[2.75rem] lg:leading-[1.15]">
-              I take stores from{" "}
-              <span className="text-sky-400">idea to launch</span>
+              I turn ideas into{" "}
+              <span className="text-emerald-400">fully launched Shopify stores</span>
             </h2>
 
             {/* Description */}
@@ -84,7 +84,7 @@ export default function About() {
                   transition={{ duration: 0.4, delay: 0.15 + i * 0.1 }}
                   className="flex gap-5"
                 >
-                  <span className="shrink-0 text-2xl font-bold text-slate-700 sm:text-3xl">
+                  <span className="shrink-0 text-2xl font-bold text-emerald-900/80 sm:text-3xl">
                     {item.step}
                   </span>
                   <div>

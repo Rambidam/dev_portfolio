@@ -46,9 +46,11 @@ export const skillCategories = [
       "Store Development & Customization",
       "Theme Customization (Liquid)",
       "Shopify 2.0 Architecture",
-      "App Integration & Automation",
+      "Integration of Apps and AI Tools",
       "Conversion Rate Optimization",
       "Payment Gateway Integration",
+      "SEO Optimization",
+      "Core Web Vitals",
     ],
   },
   {
@@ -132,8 +134,8 @@ export const experiences = [
 
 export const education = [
   {
-    degree: "BS in Software Development (Undergraduate)",
-    program: "BYU-Pathway",
+    degree: "BS in Software Development",
+    program: "BYU-Pathway online",
     school: "Brigham Young University – Idaho",
     period: "Apr 2022 – Dec 2024",
     details: [

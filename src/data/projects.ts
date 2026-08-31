@@ -15,6 +15,30 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    id: "rhags-studio",
+    title: "Rhags Studio",
+    category: "Shopify Store",
+    description:
+      "Built and launched a Shopify website from scratch, working directly with the client to understand requirements, implement custom solutions, and ensure the project was delivered on time and to specification.",
+    tags: ["Shopify", "Liquid", "Theme Customization", "App Integrations"],
+    url: "https://rhagsstudios.com/",
+    image: "/projects/rhagsstudio.png",
+    preview: "shopify",
+    accent: "#a78bfa",
+  },
+  {
+    id: "kitchen-library",
+    title: "Kitchen Library",
+    category: "Shopify Store",
+    description:
+      "Worked directly with the client to understand requirements, implement custom solutions, and ensure the project was delivered on time and to specification.",
+    tags: ["Shopify", "Liquid", "Theme Customization", "App Integrations"],
+    url: "https://kitchenlibrary.au/",
+    image: "/projects/kitchenlibrary.png",
+    preview: "shopify",
+    accent: "#f97316",
+  },
+  {
     id: "stick-around-print",
     title: "Stick Around Print",
     category: "Shopify Store",
