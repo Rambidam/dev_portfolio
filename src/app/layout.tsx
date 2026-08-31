@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Louie Franz Gualingco | Shopify & Web Developer",
+  title: "Louie Gualingco | Shopify & Web Developer",
   description:
     "Shopify & Web Developer specializing in e-commerce, theme customization, SEO, CRO, and high-performing online stores. 5+ years of experience.",
   keywords: [
@@ -25,9 +25,9 @@ export const metadata: Metadata = {
     "CRO",
     "SEO",
   ],
-  authors: [{ name: "Louie Franz Gualingco" }],
+  authors: [{ name: "Louie Gualingco" }],
   openGraph: {
-    title: "Louie Franz Gualingco | Shopify & Web Developer",
+    title: "Louie Gualingco | Shopify & Web Developer",
     description:
       "Building high-performing Shopify stores and web applications with 5+ years of e-commerce experience.",
     type: "website",

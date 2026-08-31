@@ -91,7 +91,7 @@ export const projects: Project[] = [
     category: "Shopify · US",
     description:
       "Drove SEO enhancements, Liquid theme development, and app integrations for this snack brand — improving search rankings, user experience, and post-launch store performance.",
-    tags: ["Shopify", "Liquid", "SEO", "App Integration"],
+    tags: ["Shopify", "Liquid", "SEO", "App Integration", "Analytics"],
     url: "https://snacksofsubstance.com/",
     image: "/projects/snacksofsubstance.png",
     preview: "shopify",
@@ -114,8 +114,8 @@ export const projects: Project[] = [
     title: "Web Dev Japan",
     category: "Shopify · Japan",
     description:
-      "Full Liquid development with custom features and app integrations for a walls and flooring retailer — delivering a scalable, feature-rich storefront built to convert.",
-    tags: ["Shopify", "Liquid", "Custom Features", "App Integration"],
+      "Improved the website’s mobile performance by identifying and addressing speed issues to create a faster, smoother, and more responsive user experience.",
+    tags: ["Theme Customization", "Mobile Performance Optimization"],
     url: "https://webdev-japan.com/",
     image: "/projects/webdevjapan.png",
     preview: "shopify",

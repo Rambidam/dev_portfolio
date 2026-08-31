@@ -1,5 +1,5 @@
 export const personalInfo = {
-  name: "Louie Franz Gualingco",
+  name: "Louie Gualingco",
   title: "Shopify & Web Developer",
   subtitle: "E-commerce Specialist",
   tagline:

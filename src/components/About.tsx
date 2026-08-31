@@ -24,7 +24,7 @@ export default function About() {
               <div className="relative h-full overflow-hidden rounded-2xl border-[5px] border-white bg-white shadow-[0_0_40px_rgba(255,255,255,0.15)]">
                 <Image
                   src="/profile.png"
-                  alt="Louie Franz Gualingco"
+                  alt="Louie Gualingco"
                   fill
                   className="object-cover object-top"
                   sizes="(max-width: 1024px) 400px, 480px"
