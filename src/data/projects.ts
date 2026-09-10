@@ -66,7 +66,7 @@ export const projects: Project[] = [
     title: "Plumbersstock",
     category: "Web Development · US",
     description:
-      "Contributed to the development and maintenance of PlumbersStock’s e-commerce website, a leading plumbing supply retailer. Resolved various frontend issues, implemented new features, and enhanced the site’s overall functionality, usability, and UX using a range of programming languages, frameworks, and web technologies.",
+      "Contributed to the development and maintenance of PlumbersStock’s e-commerce website, a leading plumbing supply retailer in the US. Resolved various frontend issues, implemented new features, and enhanced the site’s functionality, usability, and UX using a range of programming languages, frameworks, and web technologies.",
     tags: ["React", "Next.js", "HTML", "CSS", "JavaScript", "SEO", "UX/UI Design"],
     url: "https://www.plumbersstock.com/",
     image: "/projects/ps.png",
