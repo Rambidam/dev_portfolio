@@ -7,7 +7,7 @@ import SectionHeading from "./SectionHeading";
 
 export default function Experience() {
   return (
-    <section className="px-6 py-24">
+    <section className="px-6 py-14 md:py-20">
       <div className="mx-auto max-w-6xl">
         <SectionHeading
           id="experience"

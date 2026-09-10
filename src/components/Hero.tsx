@@ -7,7 +7,7 @@ import LinkedInIcon from "./LinkedInIcon";
 
 export default function Hero() {
   return (
-    <section className="relative flex min-h-screen items-center justify-center overflow-hidden px-6 pt-20">
+    <section className="relative flex items-center justify-center overflow-hidden px-6 pt-28 pb-12 md:pt-32 md:pb-16">
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute left-1/2 top-1/4 h-[500px] w-[500px] -translate-x-1/2 rounded-full bg-emerald-500/10 blur-3xl" />
         <div className="absolute right-0 top-1/2 h-[400px] w-[400px] rounded-full bg-teal-500/5 blur-3xl" />
@@ -89,7 +89,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.8 }}
-          className="mt-20"
+          className="mt-10 md:mt-14"
         >
           <a
             href="#about"

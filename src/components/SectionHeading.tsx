@@ -22,7 +22,7 @@ export default function SectionHeading({
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-80px" }}
       transition={{ duration: 0.5 }}
-      className="mb-12 text-center"
+      className="mb-8 text-center"
     >
       <p className="mb-2 text-sm font-semibold uppercase tracking-widest text-emerald-400">
         {label}

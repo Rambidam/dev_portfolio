@@ -163,7 +163,7 @@ export default function FeaturedProjects() {
   }, [page]);
 
   return (
-    <section id="projects" className="relative overflow-hidden px-6 py-28">
+    <section id="projects" className="relative overflow-hidden px-6 py-14 md:py-20">
       <div className="pointer-events-none absolute inset-0 bg-black" />
       <div className="pointer-events-none absolute left-0 top-0 h-96 w-96 -translate-x-1/3 -translate-y-1/3 rounded-full bg-emerald-500/10 blur-[120px]" />
 
@@ -173,7 +173,7 @@ export default function FeaturedProjects() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-80px" }}
           transition={{ duration: 0.5 }}
-          className="mb-14 text-center"
+          className="mb-8 text-center md:mb-10"
         >
           <h2 className="mb-4 text-4xl font-bold tracking-tight text-white sm:text-5xl">
             Featured{" "}

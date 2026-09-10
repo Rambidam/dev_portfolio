@@ -19,7 +19,7 @@ export const projects: Project[] = [
     category: "Shopify · Sweden",
     description:
       "Built and launched a Shopify website from scratch, working directly with the client to understand requirements, implement custom solutions, and ensure the project was delivered on time and to specification.",
-    tags: ["Shopify", "Liquid", "Theme Customization", "App Integrations", "Client Collaboration", "SEO", "Mobile Optimization", "Payment Gateways"],
+    tags: ["Liquid", "Theme Customization", "App Integrations", "Client Collaboration", "SEO", "Mobile Optimization", "Payment Gateways"],
     url: "https://rhagsstudios.com/",
     image: "/projects/rhagsstudio.png",
     preview: "shopify",
@@ -31,7 +31,7 @@ export const projects: Project[] = [
     category: "Shopify · Australia",
     description:
       "Worked directly with the client to understand requirements, implement custom solutions, and ensure the project was delivered on time and to specification.",
-    tags: ["Shopify", "Liquid", "Theme Customization", "API Integrations", "Email Marketing", "SEO"],
+    tags: ["Liquid", "Theme Customization", "App Development", "API Integrations", "Email Marketing", "SEO"],
     url: "https://kitchenlibrary.au/",
     image: "/projects/kl.png",
     preview: "shopify",
@@ -66,8 +66,8 @@ export const projects: Project[] = [
     title: "Plumbersstock",
     category: "Web Development · US",
     description:
-      "Helped build and maintain the website for Plumbersstock, a plumbing supply company.",
-    tags: ["React", "Next.js", "HTML", "CSS", "JavaScript", "SEO"],
+      "Contributed to the development and maintenance of PlumbersStock’s e-commerce website, a leading plumbing supply retailer. Resolved various frontend issues, implemented new features, and enhanced the site’s overall functionality, usability, and UX using a range of programming languages, frameworks, and web technologies.",
+    tags: ["React", "Next.js", "HTML", "CSS", "JavaScript", "SEO", "UX/UI Design"],
     url: "https://www.plumbersstock.com/",
     image: "/projects/ps.png",
     preview: "ecommerce",
@@ -78,8 +78,8 @@ export const projects: Project[] = [
     title: "Litefar",
     category: "Shopify · Australia",
     description:
-      "Implemented new Liquid-based features and SEO improvements for this Australian tea retailer — enhancing product pages, search visibility, and overall store functionality.",
-    tags: ["Shopify", "Liquid", "SEO", "JavaScript"],
+      "Resolved layout issues and enhanced the  visual design and UX using custom CSS and Liquid, ensuring a cleaner, more polished, and responsive storefront.",
+    tags: ["Liquid", "CSS", "UX/UI Design"],
     url: "https://www.litefar.au/",
     image: "/projects/litefar.png",
     preview: "shopify",

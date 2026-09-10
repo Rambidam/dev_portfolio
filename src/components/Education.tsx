@@ -177,7 +177,7 @@ export default function Education() {
     <section
       ref={sectionRef}
       onMouseMove={handleSectionMouseMove}
-      className="relative overflow-hidden px-6 py-28"
+      className="relative overflow-hidden px-6 py-14 md:py-20"
     >
       <div className="pointer-events-none absolute inset-0 bg-white/[0.02]" />
 

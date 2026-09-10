@@ -44,13 +44,15 @@ export const skillCategories = [
     title: "E-commerce & Shopify",
     skills: [
       "Store Development & Customization",
-      "Theme Customization (Liquid)",
-      "Shopify 2.0 Architecture",
+      "Theme Customization",
       "Integration of Apps and AI Tools",
+      "App Development",
+      "API Integrations",
       "Conversion Rate Optimization",
       "Payment Gateway Integration",
-      "SEO Optimization",
-      "Core Web Vitals",
+      "Email Marketing",
+      "SEO",
+      "Site Speed Optimization",
     ],
   },
   {
@@ -148,11 +150,44 @@ export const education = [
   },
 ];
 
+export const reviews = [
+  {
+    id: "local-seo",
+    title: "Shopify Development - Local SEO Based",
+    rating: 5,
+    period: "Jul 20, 2025 – Jul 14, 2026",
+    image: "/reviews/shopify-development-local.png",
+    width: 861,
+    height: 986,
+    alt: "Upwork client review for Shopify Development - Local SEO Based, rated 5.0",
+  },
+  {
+    id: "ecommerce-brand",
+    title: "Shopify Developer for a Successful E-commerce brand",
+    rating: 5,
+    period: "Apr 9, 2026 – Apr 11, 2026",
+    image: "/reviews/shopify-developer-ecommerce-brand.png",
+    width: 852,
+    height: 299,
+    alt: "Upwork client review for Shopify Developer for a Successful E-commerce brand, rated 5.0",
+  },
+  {
+    id: "bsh-walls",
+    title: "Custom Product Pages Development for BSH Walls and Floors",
+    rating: 5,
+    period: "Oct 1, 2025 – Oct 27, 2025",
+    image: "/reviews/custom-product-pages-bsh.png",
+    width: 866,
+    height: 380,
+    alt: "Upwork client review for Custom Product Pages Development for BSH Walls and Floors, rated 5.0",
+  },
+];
+
 export const navLinks = [
   { label: "About", href: "#about" },
   { label: "Skills", href: "#skills" },
   { label: "Projects", href: "#projects" },
   { label: "Experience", href: "#experience" },
+  { label: "Reviews", href: "#reviews" },
   { label: "Education", href: "#education" },
-  { label: "Contact", href: "#contact" },
 ];

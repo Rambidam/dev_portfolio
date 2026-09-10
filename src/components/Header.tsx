@@ -48,7 +48,7 @@ export default function Header() {
           </span>
         </a>
 
-        <ul className="hidden items-center gap-8 md:flex">
+        <ul className="hidden items-center gap-8 lg:flex">
           {navLinks.map((link) => (
             <li key={link.href}>
               <a
@@ -63,7 +63,7 @@ export default function Header() {
 
         <a
           href="#contact"
-          className="hidden rounded-full bg-emerald-500 px-5 py-2 text-sm font-medium text-slate-950 transition-all hover:bg-emerald-400 hover:shadow-lg hover:shadow-emerald-500/25 md:inline-block"
+          className="hidden rounded-full bg-emerald-500 px-5 py-2 text-sm font-medium text-slate-950 transition-all hover:bg-emerald-400 hover:shadow-lg hover:shadow-emerald-500/25 lg:inline-block"
         >
           Get in Touch
         </a>
@@ -71,7 +71,7 @@ export default function Header() {
         <button
           type="button"
           aria-label={mobileOpen ? "Close menu" : "Open menu"}
-          className="rounded-lg p-2 text-slate-400 transition-colors hover:bg-white/5 hover:text-white md:hidden"
+          className="rounded-lg p-2 text-slate-400 transition-colors hover:bg-white/5 hover:text-white lg:hidden"
           onClick={() => setMobileOpen(!mobileOpen)}
         >
           {mobileOpen ? <X size={22} /> : <Menu size={22} />}
@@ -79,7 +79,7 @@ export default function Header() {
       </nav>
 
       {mobileOpen && (
-        <div className="border-t border-white/10 bg-slate-950/95 backdrop-blur-xl md:hidden">
+        <div className="border-t border-white/10 bg-slate-950/95 backdrop-blur-xl lg:hidden">
           <ul className="flex flex-col gap-1 px-6 py-4">
             {navLinks.map((link) => (
               <li key={link.href}>

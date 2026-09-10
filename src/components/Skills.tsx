@@ -6,7 +6,7 @@ import SectionHeading from "./SectionHeading";
 
 export default function Skills() {
   return (
-    <section className="bg-white/[0.02] px-6 py-24">
+    <section className="bg-white/[0.02] px-6 py-14 md:py-20">
       <div className="mx-auto max-w-6xl">
         <SectionHeading
           id="skills"

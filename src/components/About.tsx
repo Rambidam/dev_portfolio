@@ -6,11 +6,11 @@ import { aboutText, aboutSkills, workProcess } from "@/data/portfolio";
 
 export default function About() {
   return (
-    <section id="about" className="relative overflow-hidden bg-black px-6 py-28">
+    <section id="about" className="relative overflow-hidden bg-black px-6 py-14 md:py-20">
       <div className="pointer-events-none absolute left-0 top-1/4 h-80 w-80 -translate-x-1/3 rounded-full bg-emerald-500/15 blur-[100px]" />
 
       <div className="relative mx-auto max-w-6xl">
-        <div className="grid items-center gap-12 lg:grid-cols-[2fr_3fr] lg:gap-16">
+        <div className="grid items-center gap-8 lg:grid-cols-[2fr_3fr] lg:gap-16">
           {/* Profile photo */}
           <motion.div
             initial={{ opacity: 0, x: -32 }}

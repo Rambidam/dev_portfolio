@@ -23,8 +23,9 @@ export default function MagicDust() {
     const prefersReducedMotion = window.matchMedia(
       "(prefers-reduced-motion: reduce)",
     ).matches;
+    if (prefersReducedMotion) return;
+
     const isCoarsePointer = window.matchMedia("(pointer: coarse)").matches;
-    if (prefersReducedMotion || isCoarsePointer) return;
 
     const canvas = canvasRef.current;
     if (!canvas) return;
@@ -42,7 +43,7 @@ export default function MagicDust() {
     let spawnCarry = 0;
 
     const particles: Particle[] = [];
-    const MAX_PARTICLES = 120;
+    const MAX_PARTICLES = isCoarsePointer ? 80 : 120;
 
     const resize = () => {
       dpr = Math.min(window.devicePixelRatio || 1, 2);
@@ -77,10 +78,7 @@ export default function MagicDust() {
       });
     };
 
-    const onPointerMove = (e: PointerEvent) => {
-      const x = e.clientX;
-      const y = e.clientY;
-
+    const trailTo = (x: number, y: number) => {
       if (!hasMoved) {
         lastX = x;
         lastY = y;
@@ -107,6 +105,23 @@ export default function MagicDust() {
 
       lastX = x;
       lastY = y;
+    };
+
+    const onPointerMove = (e: PointerEvent) => {
+      trailTo(e.clientX, e.clientY);
+    };
+
+    const onPointerDown = (e: PointerEvent) => {
+      lastX = e.clientX;
+      lastY = e.clientY;
+      hasMoved = true;
+      for (let i = 0; i < 4; i++) spawnParticle(e.clientX, e.clientY, 8);
+    };
+
+    const onTouchMove = (e: TouchEvent) => {
+      const touch = e.touches[0];
+      if (!touch) return;
+      trailTo(touch.clientX, touch.clientY);
     };
 
     const drawStar = (
@@ -185,12 +200,16 @@ export default function MagicDust() {
     resize();
     window.addEventListener("resize", resize);
     window.addEventListener("pointermove", onPointerMove, { passive: true });
+    window.addEventListener("pointerdown", onPointerDown, { passive: true });
+    window.addEventListener("touchmove", onTouchMove, { passive: true });
     rafId = requestAnimationFrame(tick);
 
     return () => {
       cancelAnimationFrame(rafId);
       window.removeEventListener("resize", resize);
       window.removeEventListener("pointermove", onPointerMove);
+      window.removeEventListener("pointerdown", onPointerDown);
+      window.removeEventListener("touchmove", onTouchMove);
     };
   }, []);
 
@@ -198,7 +217,7 @@ export default function MagicDust() {
     <canvas
       ref={canvasRef}
       aria-hidden
-      className="pointer-events-none fixed inset-0 z-[60] hidden md:block"
+      className="pointer-events-none fixed inset-0 z-[60]"
     />
   );
 }
